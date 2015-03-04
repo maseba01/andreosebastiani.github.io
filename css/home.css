@@ -127,82 +127,6 @@ margin-bottom: 10px;
     }
 }
 
-.facebook {
-float: left;
-text-indent: -9999px;
-display: inline-block;
-height: 84px;
-width: 84px;
-background: url(social-sprites.png);
-background-repeat:no-repeat;
-border: 1px solid #eee;
-background-color: rgba(55, 55, 55, 0.1);
-margin-right: 5px;
-margin-bottom: 5px;
-}
-
-.facebook:hover, .logo:focus{
-background-position: 0 -84px;
-}
-
-.linkedin {
-float: left;
-text-indent: -9999px;
-display: inline-block;
-height: 84px;
-width: 84px;
-background: url(social-sprites.png) -336px 0px;
-background-repeat:no-repeat;
-border: 1px solid #eee;
-background-color: rgba(55, 55, 55, 0.1);
-margin-right: 5px;
-margin-bottom: 15px;
-margin-bottom: 5px;
-}
-
-.linkedin:hover, .logo:focus{
-background-position: -336px -84px;
-}
-
-.twitter {
-float: left;
-text-indent: -9999px;
-display: inline-block;
-height: 84px;
-width: 84px;
-background: url(social-sprites.png) -672px 0px;
-background-repeat:no-repeat;
-border: 1px solid #eee;
-background-color: rgba(55, 55, 55, 0.1);
-margin-right: 5px;
-margin-bottom: 5px;
-}
-
-.twitter:hover, .logo:focus{
-background-position: -672px -84px;
-}
-
-.google {
-float: left;
-text-indent: -9999px;
-display: inline-block;
-height: 84px;
-width: 84px;
-background: url(social-sprites.png) -252px 0px;
-background-repeat:no-repeat;
-border: 1px solid #eee;
-background-color: rgba(55, 55, 55, 0.1);
-margin-right: 5px;
-margin-bottom: 10px;
-}
-
-.google:hover, .logo:focus{
-background-position: -252px -84px;
-}
-
-
-
-
 ul{
     list-style-type: none;
 }
@@ -223,13 +147,9 @@ width:350px;
 overflow:hidden;
 }
 
-
-
 span.title{
     color:white;
 }
-
-
 
 .border-bottom {
     padding-bottom: 20px;
@@ -251,8 +171,6 @@ span.title{
 }
 
 .progress-bars{
-
-   
 }
 
 .resume{
@@ -292,112 +210,6 @@ bottom: 200px;
     margin: 0 auto;
 }
 
-.slide{
-    position: relative;
-}
-
-/*.slideRight{
-    -webkit-animation: slideRight 1s ease-in; 
-    -moz-animation: slideRight 1s ease-in; 
-    -o-animation: slideRight 1s ease-in;      
-    animation: slideRight 1s ease-in;  
-}
-.slideLeft {
-    -webkit-animation: slideLeft 1s ease-in; 
-    -moz-animation: slideLeft 1s  ease-in; 
-    -o-animation: slideLeft 1s ease-in;     
-    animation: slideLeft 1s ease-in;  
-}
-.slideUp{
-    -webkit-animation: slideUp 1s ease-in;
-    -moz-animation: slideUp 1s ease-in;  
-    -o-animation: slideUp 1s ease-in;     
-    animation: slideUp 1 ease-in; 
-}*/
-
-.socialSlide1{
-    position: relative;
-    -webkit-animation: socialSlideIn 1.2s ease-in;
-    -moz-animation: socialSlideIn 1.8s ease-in;
-    animation: socialSlideIn 1.8s ease-in;
-}
-
-.socialSlide2{
-    position: relative;
-    -webkit-animation: socialSlideIn 1.4s ease-in;
-    -moz-animation: socialSlideIn 1.8s ease-in;
-    animation: socialSlideIn 1.8s ease-in;
-}
-
-.socialSlide3{
-    position: relative;
-    -webkit-animation: socialSlideIn 1.6s ease-in;
-    -moz-animation: socialSlideIn 1.8s ease-in;
-    animation: socialSlideIn 1.8s ease-in;
-}
-
-.socialSlide4{
-    position: relative;
-    -webkit-animation: socialSlideIn 1.8s ease-in;
-    -moz-animation: socialSlideIn 1.8s ease-in;
-    animation: socialSlideIn 1.8s ease-in;
-}
-/*
-@-webkit-keyframes slideUp {
-    from { top: 700px;}
-    to{ top: 0;}
-}
-@keyframes slideUp {
-    from { top: 700px;}
-    to { top: 0; }
-}
-@-moz-keyframes slideRight {
-    from { right: 700px;}
-    to { right: -15px;},
-    from { right: -15px;}
-    to { right: 0-15px;}
-}
-@-webkit-keyframes slideRight {
-    from { right: 700px;}
-    to { right: -15px;},
-    from { right: -15px;}
-    to { right: 0-15px;}
-}
-@-moz-keyframes slideRight {
-    from { right: 700px;}
-    to { right: 0;}
-}
-@-moz-keyframes slideLeft{
-    from {left: 900px;}
-    to { left: 0;}
-}
-@-webkit-keyframes slideLeft{
-    from {left: 900px;}
-    to { left: 0;}
-}
-@keyframes slideLeft{
-    from {left: 900px;}
-    to { left: 0;}
-}
-*/
-@-webkit-keyframes socialSlideIn {
-    from { top: 500px;}
-    to { top: 0;}
-}
-
-@-moz-keyframes socialSlideIn {
-    from { top: 500px;}
-    to { top: 0;}
-}
-
-@keyframes socialSlideIn {
-    from { top: 500px;}
-    to { top: 0;}
-}
-
-
-
-
 @viewport{
     zoom: 1.0;
     width: extend-to-zoom;
@@ -407,18 +219,6 @@ bottom: 200px;
     margin-bottom: 130px;
 }
 
-.portfolioHeader {
-    position: relative;
-    display: block;
-    top: 100px;
-    left: 0;
-    width: 300px;
-    margin: 0 auto;
-}
-
-.my-images {
-    margin-bottom: 10px;
-}
 
 .hiddenResumeBtn {
     display: none;
